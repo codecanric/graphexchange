@@ -1,5 +1,7 @@
 package xiaoanjie;
 
-public interface PatternNode {
+public interface PatternNode extends Node,NamedElement {
 
+	TypeNode getType();	
 }
+

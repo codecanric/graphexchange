@@ -1,5 +1,5 @@
 package xiaoanjie;
 
-public interface TypedEdge extends Edge{
-	public int getType();
+public interface TypedEdge extends Edge<TypedNode>{
+	TypeEdge getType();
 }
